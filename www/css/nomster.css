@@ -21,6 +21,7 @@
 	outline: none;
 	border-bottom: 1px solid #9eebcf;
 	color: white;
+	border-radius: 2px;
 }
 .search input:focus{
 	border-bottom: 2px solid white;
