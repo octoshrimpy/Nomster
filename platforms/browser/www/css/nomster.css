@@ -15,7 +15,7 @@
   transform: translateY(-50%);
 }
 .search input{
-	transition: border-bottom 0.15s;
+	transition: all 0.15s;
 	background: transparent;
 	border: none;
 	outline: none;
@@ -24,4 +24,11 @@
 }
 .search input:focus{
 	border-bottom: 2px solid white;
+		margin-right: 0%;
+}
+.navbar .search input.dirty{
+	margin-left: 0% !important;
+}
+.navbar .search input:not(:focus){
+	margin-left: 100%;
 }
