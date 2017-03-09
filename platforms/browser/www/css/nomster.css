@@ -15,9 +15,13 @@
   transform: translateY(-50%);
 }
 .search input{
+	transition: border-bottom 0.15s;
 	background: transparent;
 	border: none;
 	outline: none;
-	border-bottom: 2px solid white;
+	border-bottom: 1px solid #9eebcf;
 	color: white;
+}
+.search input:focus{
+	border-bottom: 2px solid white;
 }
