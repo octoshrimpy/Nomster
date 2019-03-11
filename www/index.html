@@ -1,25 +1,33 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-				<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-				<link href="css/tachyons.css" rel="stylesheet">
-				<link href="css/nomster.css" rel="stylesheet">
-        <title>Nomster</title>
-    </head>
-    <body>
-			<div class="bg-primary white pa3">
-				<span class="hamburger">
-					<i class="material-icons">menu</i>
-				</span>
-				<span class="v-align h-100">
-					<input type="text" />
-				</span>
-			</div>
-			<script type="text/javascript" src="cordova.js"></script>
-			<script type="text/javascript">
-			  app.initialize();
-			</script>
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#004081" />
+    <title>My hello world page</title>
+    <link rel="stylesheet" type="text/css" href="nomster.min.css" media="all">
+</head>
+
+<body>
+    <h1 class="vertical-container">Hello World</h1>
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDRlgEzqug-IJPNBWiWNHBz86jBI8SCYwk",
+            authDomain: "nomster-170a7.firebaseapp.com",
+            databaseURL: "https://nomster-170a7.firebaseio.com",
+            projectId: "nomster-170a7",
+            storageBucket: "nomster-170a7.appspot.com",
+            messagingSenderId: "972282496218"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+</body>
+
 </html>
